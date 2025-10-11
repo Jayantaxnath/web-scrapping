@@ -2,11 +2,11 @@
 
 A comprehensive web scraping project for collecting and analyzing internship data from Internshala across multiple Indian cities.
 
-## 📋 Project Overview
+## Project Overview
 
 This project scrapes internship listings from Internshala and performs detailed exploratory data analysis (EDA) to uncover insights about the internship market in India. The scraper collects data from major cities and remote work opportunities.
 
-## 🎯 Features
+## Features
 
 - **Multi-city Web Scraping**: Automated data collection from 8+ major Indian cities
 - **Remote Opportunities**: Work-from-home internship data collection  
@@ -14,32 +14,15 @@ This project scrapes internship listings from Internshala and performs detailed 
 - **Comprehensive EDA**: Statistical analysis and visualizations
 - **Robust Scraping**: Retry mechanisms and error handling for reliable data collection
 
-## 📊 Dataset Coverage
+## Dataset Coverage
 
 ### Cities Covered:
-- Bangalore
-- Chennai  
-- Delhi
-- Hyderabad
-- Jaipur
-- Kolkata
-- Mumbai
-- Pune
-- Work-from-home positions
+- Bangalore, Chennai, Delhi, Hyderabad, Jaipur, Kolkata, Mumbai, Pune, Work-from-home positions
 
 ### Data Fields:
-- Internship Profile
-- Company Name
-- Location
-- Stipend Range
-- Duration
-- Start Date
-- Application Deadline
-- Required Skills
-- Educational Requirements
-- Perks & Benefits
+- Internship Profile | Company Name | Location | Stipend Range | Duration | Start Date | Application Deadline | Required Skills | Educational Requirements | Perks & Benefits
 
-## 🛠️ Technology Stack
+## Technology Stack 🛠️
 
 - **Python 3.x**
 - **BeautifulSoup4**: HTML parsing and web scraping
@@ -48,7 +31,7 @@ This project scrapes internship listings from Internshala and performs detailed 
 - **Matplotlib & Seaborn**: Data visualization
 - **NumPy**: Numerical computations
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── web_scrapping.py              # Main scraping script
@@ -65,7 +48,7 @@ This project scrapes internship listings from Internshala and performs detailed 
 └── url.txt                       # Target URLs for scraping
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 ```bash
@@ -77,15 +60,8 @@ pip install -r requirements.txt
 python web_scrapping.py
 ```
 
-### 3. Batch Processing
-```python
-python web_scrapping_multi_url.py
-```
-
 ### 4. Data Analysis
 Open and run `eda_internship_data.ipynb` in Jupyter Notebook
-
-## 📈 Key Insights
 
 The analysis reveals trends in:
 - Stipend distributions across cities
@@ -94,38 +70,25 @@ The analysis reveals trends in:
 - Seasonal internship availability
 - Remote vs. on-site opportunities
 
-## ⚙️ Configuration
+## Configuration ⚙️
 
 Modify scraping parameters in the scripts:
 - `MAX_PAGES_TO_SCRAPE`: Control data volume
 - `urls`: Target specific cities or regions
 - `timeout`: Adjust request timeout settings
 
-## 🔧 Features
+## Features
 
-### Robust Scraping
 - Exponential backoff retry mechanism
 - Request timeout handling
 - Error logging and recovery
-
-### Data Processing
 - Automatic CSV generation per city
 - Data merging and consolidation
 - Duplicate handling and cleaning
 
-## 📝 Usage Notes
-
-- Respect website rate limits and terms of service
-- Data is collected for educational and research purposes
-- Regular updates needed due to website structure changes
-
-## 🤝 Contributing
+## Contributing 🤝
 
 Feel free to submit issues, fork the repository, and create pull requests for improvements.
-
-## 📄 License
-
-This project is for educational and research purposes. Please respect Internshala's terms of service.
 
 ---
 
