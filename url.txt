@@ -1,0 +1,11 @@
+urls = [
+    "https://internshala.com/internships/work-from-home-internships",
+    "https://internshala.com/internships/internship-in-bangalore",
+    "https://internshala.com/internships/internship-in-delhi",
+    "https://internshala.com/internships/internship-in-hyderabad",
+    "https://internshala.com/internships/internship-in-mumbai",
+    "https://internshala.com/internships/internship-in-chennai",
+    "https://internshala.com/internships/internship-in-pune",
+    "https://internshala.com/internships/internship-in-kolkata",
+    "https://internshala.com/internships/internship-in-jaipur",
+]
