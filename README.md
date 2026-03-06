@@ -1,4 +1,12 @@
 # Internshala Web Scraper & Data Analysis
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Web Scraping](https://img.shields.io/badge/Web-Scraping-green)
+![Data Analysis](https://img.shields.io/badge/Data-Analysis-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-purple)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-Web%20Scraper-yellow)
+![Requests](https://img.shields.io/badge/Requests-HTTP%20Library-lightgrey)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 A comprehensive web scraping project for collecting and analyzing internship data from Internshala across multiple Indian cities.
 
